@@ -1,0 +1,220 @@
+.avatar-icon {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.khoemach {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.lm-mch {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 17px;
+  color: var(--primary-primary1000);
+  display: inline-block;
+  min-width: 125px;
+}
+.logo {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+}
+.am-m-bt {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 28px;
+  font-size: var(--biolink-page-2-lvltg56f-mobile-body-highlight-emphasis-size);
+  color: var(--base-base-black);
+}
+
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-base);
+}
+.other-links {
+  position: relative;
+  line-height: 17px;
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xl);
+}
+
+.button-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button_content,
+.button_text {
+  display: flex;
+  align-items: center;
+}
+.button_text {
+  height: 20px;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.button_content {
+  width: 250px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.arrow-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.buttonlink:visited{
+  color: inherit;
+}
+.buttonlink {
+  text-decoration: none;
+  color: inherit;
+  align-self: stretch;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--secondary-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-6xs) var(--padding-base) var(--padding-6xs)
+    var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+
+.link-group {
+  padding: 0 var(--padding-base);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--biolink-page-2-lvltg56f-mobile-body-highlight-emphasis-size);
+  color: var(--base-base-black);
+}
+.body,
+.content,
+.link-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content {
+  gap: var(--gap-base);
+  font-size: var(--font-size-sm);
+  color: var(--neutrals-neutrals1000);
+}
+.body {
+  gap: 10px;
+}
+.span {
+  color: #292929;
+}
+.by-khoemach-team-container {
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  max-width: 100%;
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: #007d41;
+}
+.smartphone,
+.webpage {
+  display: flex;
+  box-sizing: border-box;
+}
+.smartphone {
+  width: 430px;
+  background-color: var(--neutrals-base-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px var(--padding-5xl) var(--padding-5xl);
+  min-height: 932px;
+  max-width: 100%;
+}
+.webpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 12px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--biolink-page-2-lvltg56f-mobile-headings-display-3-size);
+  color: var(--primary-primary);
+  font-family: var(--biolink-page-2-lvltg56f-mobile-body-highlight-emphasis);
+}
+@media screen and (max-width: 750px) {
+  .khoemach {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .smartphone {
+    padding-top: 29px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .khoemach {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
