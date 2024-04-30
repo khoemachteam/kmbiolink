@@ -176,13 +176,13 @@
   box-sizing: border-box;
 }
 .smartphone {
-  width: 430px;
+  width: 439px;
   background-color: var(--neutrals-base-black);
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 44px var(--padding-5xl) var(--padding-5xl);
-  min-height: 832px;
+  min-height: 852px;
   max-width: 100%;
 }
 .webpage {
