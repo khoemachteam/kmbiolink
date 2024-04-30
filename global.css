@@ -13,13 +13,13 @@ body {
   --biolink-page-2-lvltg56f-mobile-headings-display-3-size: 32px;
 
   /* Colors */
-  --color-white: #fff;
-  --neutrals-base-white: #fafafa;
-  --primary-primary1000: #005c30;
-  --secondary-secondary: #ffde59;
   --neutrals-neutrals1000: #484848;
-  --base-base-black: #363636;
+  --neutrals-base-black: #363636;
   --primary-primary: #00bf63;
+  --secondary-secondary: #ffde59;
+  --base-base-white: #fafafa;
+  --neutrals-neutrals100: #e8e8e8;
+  --primary-primary100: #d7ffec;
 
   /* Gaps */
   --gap-base: 16px;
