@@ -203,8 +203,8 @@
 }
 @media screen and (max-width: 750px) {
   .khoemach {
-    font-size: 26px;
-    line-height: 31px;
+    font-size: inherit;
+    line-height: inherit;
   }
   .smartphone {
     padding-top: var(--padding-5xl);
@@ -212,7 +212,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .khoemach {
     font-size: 19px;
     line-height: 23px;
