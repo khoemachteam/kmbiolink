@@ -181,14 +181,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 44px var(--padding-5xl) var(--padding-5xl);
+  padding: 22px var(--padding-base) var(--padding-base);
   min-height: 852px;
   max-width: 100%;
 }
 .webpage {
   width: 100%;
   position: relative;
-  background-color: var(--neutrals-neutrals1000);
+  background-color: var(--neutrals-base-black);
   overflow: hidden;
   flex-direction: row;
   align-items: flex-start;
@@ -207,8 +207,8 @@
     line-height: 31px;
   }
   .smartphone {
-    padding-top: 29px;
-    padding-bottom: var(--padding-xl);
+    padding-top: var(--padding-5xl);
+    padding-bottom: var(--padding-base);
     box-sizing: border-box;
   }
 }
