@@ -93,7 +93,7 @@
   white-space: nowrap;
 }
 .button_content {
-  width: 250px;
+  /* width: 250px; */
   flex-direction: row;
   justify-content: flex-start;
   padding: 0 var(--padding-base) 0 0;
