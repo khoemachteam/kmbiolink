@@ -21,17 +21,18 @@ body {
   --neutrals-neutrals100: #e8e8e8;
   --primary-primary100: #d7ffec;
 
-  /* Gaps */
-  --gap-base: 16px;
-  --gap-xl: 20px;
-  --gap-5xs: 8px;
+/* Gaps */
+--gap-base: 1rem; /* 16px/16 = 1rem */
+--gap-xl: 1.25rem; /* 20px/16 = 1.25rem */
+--gap-5xs: 0.5rem; /* 8px/16 = 0.5rem */
 
-  /* Paddings */
-  --padding-xl: 20px;
-  --padding-5xl: 24px;
-  --padding-base: 16px;
-  --padding-6xs: 7px;
-  --padding-5xs: 8px;
+/* Paddings */
+--padding-xl: 1.25rem; /* 20px/16 = 1.25rem */
+--padding-5xl: 1.5rem; /* 24px/16 = 1.5rem */
+--padding-base: 1rem; /* 16px/16 = 1rem */
+--padding-6xs: 0.4375rem; /* 7px/16 = 0.4375rem */
+--padding-5xs: 0.5rem; /* 8px/16 = 0.5rem */
+
 
   /* Border radiuses */
   --br-29xl: 48px;

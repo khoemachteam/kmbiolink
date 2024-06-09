@@ -181,7 +181,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 22px var(--padding-base) var(--padding-base);
+  /* padding: 22px var(--padding-base) var(--padding-base); */
   min-height: 780px;
   max-width: 100%;
 }
@@ -193,7 +193,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) 12px;
+  /* padding: 0 var(--padding-base) 12px; */
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
